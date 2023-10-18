@@ -1,6 +1,6 @@
 ---
 - name: create dummy file 
-  hosts: devendra
+  hosts: all
   gather_facts: false
   tasks:
        - name: create dummy file on server for testing pur[ose

@@ -1,0 +1,7 @@
+---
+- name: create dummy file 
+  hosts: devendra
+  gather_facts: false
+  tasks:
+       - name: create dummy file on server for testing pur[ose
+         command: touch ~/dummy.txt 
